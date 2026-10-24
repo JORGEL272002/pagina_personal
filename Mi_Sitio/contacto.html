@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        /* Estilos generales y centrado */
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background: #f4f6f9; 
+            color: #333;
+        }
+
+        /* Menú de navegación */
+        nav { 
+            background: #2c3e50; 
+            padding: 15px; 
+            margin-bottom: 30px; 
+            border-radius: 8px;
+            text-align: center;
+        }
+        nav a { 
+            color: white; 
+            margin: 0 15px; 
+            text-decoration: none; 
+            font-weight: bold;
+        }
+        nav a:hover, nav a.activo { 
+            color: #f39c12; 
+        }
+
+        /* Encabezado */
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .subtitulo {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+
+        /* Contenedor de información de contacto en tarjeta */
+        .tarjeta-contacto {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            margin-bottom: 25px;
+        }
+
+        /* Elementos de contacto individuales */
+        .item-contacto {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .item-contacto:last-child {
+            border-bottom: none;
+        }
+
+        .icono-contacto {
+            font-size: 24px;
+            margin-right: 15px;
+            width: 35px;
+            text-align: center;
+        }
+
+        .info-contacto strong {
+            display: block;
+            color: #2c3e50;
+            font-size: 14px;
+        }
+
+        .info-contacto a, .info-contacto span {
+            color: #2980b9;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .info-contacto a:hover {
+            text-decoration: underline;
+        }
+
+        /* Botón de acción para llamadas o WhatsApp */
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.2s;
+        }
+        .btn-whatsapp:hover {
+            background-color: #1eb854;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="acerca.html">Acerca de mí</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html" class="activo">Contacto</a>
+    </nav>
+
+    <h1>Contacto</h1>
+    <p class="subtitulo">Ponte en contacto conmigo a través de cualquiera de estos medios:</p>
+
+    <!-- Tarjeta con la información de contacto -->
+    <div class="tarjeta-contacto">
+        
+        <!-- Correo -->
+        <div class="item-contacto">
+            <span class="icono-contacto">✉️</span>
+            <div class="info-contacto">
+                <strong>Correo electrónico:</strong>
+                <a href="mailto:laymejorge82@gmail.com">laymejorge82@gmail.com</a>
+            </div>
+        </div>
+
+        <!-- Teléfono -->
+        <div class="item-contacto">
+            <span class="icono-contacto">📞</span>
+            <div class="info-contacto">
+                <strong>Teléfono / WhatsApp:</strong>
+                <a href="tel:+59169551953">+591 69551953</a>
+            </div>
+        </div>
+
+        <!-- Horario -->
+        <div class="item-contacto">
+            <span class="icono-contacto">🕒</span>
+            <div class="info-contacto">
+                <strong>Horario de atención:</strong>
+                <span style="color: #555;">Lunes a Viernes de 8:00 a 18:00</span>
+            </div>
+        </div>
+
+        <!-- Red Social -->
+        <div class="item-contacto">
+            <span class="icono-contacto">🌐</span>
+            <div class="info-contacto">
+                <strong>Redes Sociales:</strong>
+                <a href="https://facebook.com/jorge.layme.92" target="_blank">Perfil de Facebook</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Botón directo para WhatsApp -->
+    <a href="https://wa.me/59169551953" target="_blank" class="btn-whatsapp">
+        💬 Enviar mensaje directo por WhatsApp
+    </a>
+
+</body>
+</html>

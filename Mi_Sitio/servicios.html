@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <style>
+        /* Estilos generales y centrado */
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background: #f4f6f9; 
+            color: #333;
+        }
+
+        /* Menú de navegación */
+        nav { 
+            background: #2c3e50; 
+            padding: 15px; 
+            margin-bottom: 30px; 
+            border-radius: 8px;
+            text-align: center;
+        }
+        nav a { 
+            color: white; 
+            margin: 0 15px; 
+            text-decoration: none; 
+            font-weight: bold;
+        }
+        nav a:hover { 
+            color: #f39c12; 
+        }
+
+        /* Encabezado */
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .subtitulo {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+
+        /* Tarjetas para los servicios */
+        .tarjeta-servicio {
+            background: white;
+            padding: 20px 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+            border-left: 5px solid #3498db;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .info-servicio h3 {
+            margin: 0 0 8px 0;
+            color: #2c3e50;
+            font-size: 20px;
+        }
+
+        .info-servicio p {
+            margin: 0;
+            color: #555;
+            font-size: 15px;
+        }
+
+        /* Iconos para los servicios */
+        .icono {
+            font-size: 35px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="acerca.html">Acerca de mí</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <h1>Mis Servicios</h1>
+    <p class="subtitulo">Servicios profesionales que pongo a tu disposición:</p>
+
+    <!-- Servicio 1: Diseño Web -->
+    <div class="tarjeta-servicio">
+        <div class="info-servicio">
+            <h3> Diseño de páginas web</h3>
+            <p>Creación de sitios atractivos y funcionales para negocios y personas.</p>
+            <img src="imagenes/refe.jpg" alt="Diseño Web" style="max-height: 250px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 15px 0 25px 0; object-fit: cover;">
+        </div>
+        <div class="icono">🌐</div>
+    </div>
+
+    <!-- Servicio 2: Mantenimiento -->
+    <div class="tarjeta-servicio">
+        <div class="info-servicio">
+            <h3> Mantenimiento de equipos</h3>
+            <p>Formateo, instalación de sistemas y limpieza de computadoras.</p>
+            <img src="imagenes/descar.jpg" alt="Mantenimiento" style="max-height: 250px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 15px 0 25px 0; object-fit: cover;">
+        </div>
+        <div class="icono">🖥️</div>
+    </div>
+
+</body>
+</html>

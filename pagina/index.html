@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Práctica de estructura semántica HTML">
+    <meta name="author" content="Jorge Luis Layme">
+    <title>Mi Práctica Web</title>
+    <style>
+        /* Estilos generales y centrado de la página */
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background: #f4f6f9; 
+            color: #333333;
+        }
+
+        /* Cabecera principal */
+        header { 
+            background: linear-gradient(135deg, #1e293b, #3498db); 
+            color: white; 
+            text-align: center; 
+            padding: 30px 15px; 
+            border-radius: 12px; 
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        header h1 { margin: 0 0 5px 0; font-size: 28px; }
+        header p { margin: 0; color: #e2e8f0; font-size: 16px; }
+
+        /* Menú de navegación centrado */
+        nav { 
+            background: #2c3e50; 
+            padding: 15px; 
+            border-radius: 8px; 
+            margin-bottom: 25px; 
+            text-align: center;
+        }
+        nav a { 
+            color: #ffffff; 
+            margin: 0 15px; 
+            text-decoration: none; 
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        nav a:hover { 
+            color: #f1c40f; 
+        }
+
+        /* Contenido principal y artículos */
+        main { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            margin-bottom: 25px;
+        }
+        
+        h2 { color: #1e293b; border-bottom: 2px solid #f0f0f0; padding-bottom: 8px; font-size: 20px; }
+        h3 { color: #2c3e50; }
+        p { line-height: 1.6; color: #555555; }
+
+        /* Imagen destacada */
+        .imagen-destacada {
+            max-width: 100%;
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            display: block;
+            margin: 20px 0;
+        }
+
+        /* Lista de pasatiempos */
+        ul {
+            background: #f8fafc;
+            padding: 15px 20px 15px 40px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        ul li { margin-bottom: 8px; color: #475569; }
+
+        /* Sección lateral (Aside) */
+        aside { 
+            background: #fffbeb; 
+            border: 1px solid #fef3c7;
+            padding: 20px; 
+            border-radius: 12px; 
+            margin-bottom: 25px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+        }
+        aside h3 { margin-top: 0; color: #b45309; }
+        aside p { color: #78350f; margin-bottom: 0; }
+
+        /* Pie de página */
+        footer { 
+            background: #0f172a; 
+            color: #94a3b8; 
+            text-align: center; 
+            padding: 20px; 
+            border-radius: 8px; 
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera principal del documento -->
+    <header>
+        <h1>Jorge Luis Layme</h1>
+        <p>Estudiante de Ingeniería en Sistemas</p>
+    </header>
+
+    <!-- Menú de navegación principal -->
+    <nav>
+        <a href="Mi_Sitio/index.html">Inicio</a>
+        <a href="Mi_Sitio/acerca.html">Sobre mí</a>
+        <a href="Mi_Sitio/proyectos.html">Proyectos</a>
+        <a href="Mi_Sitio/contacto.html">Contacto</a>
+    </nav>
+
+    <!-- Contenido principal de la página -->
+    <main>
+        <article>
+            <h2>Un poco sobre mí</h2>
+            <p>Hola, soy estudiante apasionado por el mundo de la tecnología y la programación. Cada día aprendo algo nuevo y trato de mejorar mis habilidades.</p>
+            
+            <h2>Mis objetivos</h2>
+            <p>Mi meta es convertirme en un excelente profesional, crear proyectos que ayuden a otros y nunca dejar de aprender.</p>
+            
+            <img src="descarga.jpg" alt="Imagen representativa de mi aprendizaje" class="imagen-destacada">
+            
+            <h3>Mis pasatiempos</h3>
+            <ul>
+                <li>📖 Leer sobre tecnología</li>
+                <li>💻 Practicar programación</li>
+                <li>🎮 Videojuegos</li>
+            </ul>
+            
+            <p style="margin-top: 25px;"><strong>Enlaces útiles:</strong> <a href="#" style="color: #2563eb;">Mis trabajos</a> | <a href="#" style="color: #2563eb;">Recursos de estudio</a></p>
+        </article>
+    </main>
+
+    <!-- Contenido secundario / información adicional -->
+    <aside>
+        <h3>💡 Nota importante</h3>
+        <p>La práctica hace al maestro. No tengas miedo de equivocarte, ¡de eso se aprende!</p>
+    </aside>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Jorge Luis Layme. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

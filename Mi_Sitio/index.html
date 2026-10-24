@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Mi Sitio</title>
+    <style>
+        /* Estilos generales y centrado */
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background: #f4f6f9; 
+            color: #333;
+        }
+
+        /* Menú de navegación */
+        nav { 
+            background: #2c3e50; 
+            padding: 15px; 
+            margin-bottom: 30px; 
+            border-radius: 8px;
+            text-align: center;
+        }
+        nav a { 
+            color: white; 
+            margin: 0 15px; 
+            text-decoration: none; 
+            font-weight: bold;
+        }
+        nav a:hover, nav a.activo { 
+            color: #f39c12; 
+        }
+
+        /* Tarjeta principal de bienvenida */
+        .tarjeta-inicio {
+            background: white;
+            padding: 35px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            text-align: center;
+        }
+
+        .tarjeta-inicio h1 {
+            color: #2c3e50;
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        .tarjeta-inicio p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        /* Estilo para la imagen de bienvenida */
+        .imagen-bienvenida {
+            max-width: 100%;
+            height: auto;
+            max-height: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin: 15px 0 25px 0;
+            object-fit: cover;
+        }
+
+        /* Botones de acción rápida */
+        .contenedor-botones {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-accion {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-accion:hover {
+            background-color: #2980b9;
+            background-color: #bdc3c7;
+        }
+
+        .btn-secundario {
+            background-color: #2980b9;
+            color: #f4f5f7;
+        }
+
+        .btn-secundario:hover {
+            background-color: #bdc3c7;
+        }
+
+        /* Pie de página (Footer) */
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="index.html" class="activo">Inicio</a>
+        <a href="acerca.html">Acerca de mí</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <!-- Contenido en Tarjeta de Bienvenida -->
+    <main class="tarjeta-inicio">
+        <h1>Bienvenidos a mi sitio web</h1>
+        
+        <p>¡Hola! Este es mi espacio personal y profesional. Navega por las distintas páginas para conocer mi trabajo, formación y servicios.</p>
+
+        <!-- Imagen de bienvenida -->
+        <img src="imagenes/imagen.jpg" alt="Imagen de bienvenida" class="imagen-bienvenida">
+
+        <!-- Botones de navegación rápida -->
+        <div class="contenedor-botones">
+            <a href="servicios.html" class="btn-accion">Ver Mis Servicios</a>
+            <a href="contacto.html" class="btn-accion btn-secundario">Contáctame</a>
+            <a href="acerca.html" class="btn-accion btn-secundario">Saber mas sobre mí</a>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

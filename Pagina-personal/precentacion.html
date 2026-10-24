@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Personal</title>
+    <style>
+        /* Estilos generales y centrado */
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background: #f4f6f9; 
+            color: #333333;
+        }
+
+        /* Tarjeta principal contenedora */
+        .tarjeta-presentacion {
+            background: #ffffff;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+
+        /* Cabecera con nombre e imágenes */
+        h1 {
+            color: #1e293b;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .contenedor-imagenes {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .estilo-imagen {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #e2e8f0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Secciones de texto */
+        .seccion-texto {
+            text-align: left;
+            margin-top: 30px;
+            border-top: 2px solid #f0f0f0;
+            padding-top: 20px;
+        }
+
+        h2 {
+            color: #1e293b;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555555;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        /* Lista de intereses mejorada */
+        .lista-intereses {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+        }
+
+        .lista-intereses li {
+            background: #f8fafc;
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+            color: #475569;
+            font-size: 14px;
+        }
+
+        /* Enlaces de perfiles */
+        .enlaces-sociales {
+            margin-top: 25px;
+        }
+
+        .enlaces-sociales a {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            margin: 0 5px;
+            transition: background-color 0.2s;
+        }
+
+        .enlaces-sociales a:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Pie de página */
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="tarjeta-presentacion">
+        <!-- Título Principal -->
+        <h1>Jorge Luis Layme</h1>
+
+        <!-- Contenedor para fotos o logos -->
+        <div class="contenedor-imagenes">
+            <!-- Cambia 'foto.jpg' por el nombre de tu foto personal -->
+            <img src="foto/foto.jpg" alt="Foto personal" class="estilo-imagen">
+            <!-- Cambia 'logo.jpg' por el nombre de tu logo -->
+            <img src="foto/refi.jpg" alt="Mi logo personal" class="estilo-imagen">
+        </div>
+
+        <!-- Sección Sobre mí -->
+        <div class="seccion-texto" style="border-top: none; padding-top: 0;">
+            <h2>Sobre mí</h2>
+            <p>Hola Soy estudiante de ingeniería en sistemas. Me apasiona la tecnología, el desarrollo web y crear soluciones útiles para los demás. Aprendo algo nuevo cada día 💻✨</p>
+        </div>
+
+        <!-- Sección Intereses -->
+        <div class="seccion-texto">
+            <h2>Intereses y tecnologías que conozco</h2>
+            <ul class="lista-intereses">
+                <li> HTML, CSS y JavaScript</li>
+                <li> Python y bases de datos</li>
+                <li> Diseño web y creatividad</li>
+            </ul>
+
+            <div class="enlaces-sociales">
+                <p style="margin-bottom: 10px; color: #64748b;">Visita mi perfil:</p>
+                <a href="https://github.com/JORGEL272002" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Jorge Luis Layme. Todos los derechos reservados. &bull; Hecho con esfuerzo y perseverancia.</p>
+    </footer>
+
+</body>
+</html>

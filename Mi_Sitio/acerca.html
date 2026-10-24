@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de mí</title>
+    <style>
+        /* Estilos generales y centrado */
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background: #f4f6f9; 
+            color: #333;
+        }
+
+        /* Menú de navegación */
+        nav { 
+            background: #2c3e50; 
+            padding: 15px; 
+            margin-bottom: 30px; 
+            border-radius: 8px;
+            text-align: center;
+        }
+        nav a { 
+            color: white; 
+            margin: 0 15px; 
+            text-decoration: none; 
+            font-weight: bold;
+        }
+        nav a:hover, nav a.activo { 
+            color: #f39c12; 
+        }
+
+        /* Encabezados */
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .subtitulo {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+
+        /* Tarjetas de contenido */
+        .tarjeta-seccion {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            margin-bottom: 25px;
+        }
+
+        .tarjeta-seccion h2 {
+            margin-top: 0;
+            color: #2c3e50;
+            font-size: 20px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .tarjeta-seccion p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        /* Listas personalizadas */
+        .tarjeta-seccion ul, .tarjeta-seccion ol {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.8;
+            margin: 10px 0 0 20px;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="acerca.html" class="activo">Acerca de mí</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <h1>Acerca de mí</h1>
+    <p class="subtitulo">Conoce un poco más sobre mi perfil, formación y habilidades.</p>
+
+   
+    <div class="tarjeta-seccion">
+        <h2>👤 Perfil</h2>
+        <p>Soy una persona responsable, creativa y con muchas ganas de aprender y desarrollar soluciones tecnológicas.</p>
+    </div>
+
+    
+    <div class="tarjeta-seccion">
+        <h2>🎓 Formación académica</h2>
+        <ul>
+            <li><strong>Primaria:</strong> Escuela Santigo Chico</li>
+            <li><strong>Secundaria:</strong> Colegio Santiago Tocoroni</li>
+            <li><strong>Actualmente:</strong> Estudiante de Ingeniería en Sistemas</li>
+        </ul>
+    </div>
+
+    
+    <div class="tarjeta-seccion">
+        <h2>💡 Habilidades</h2>
+        <ol>
+            <li>Trabajo en equipo</li>
+            <li>Resolución de problemas</li>
+            <li>Programación básica</li>
+        </ol>
+    </div>
+
+</body>
+</html>

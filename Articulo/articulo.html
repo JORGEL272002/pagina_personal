@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Lovelace | Pionera de la Computación</title>
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Contenedor principal estilo tarjeta/artículo */
+        .contenedor-articulo {
+            background-color: #ffffff;
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Cabecera del artículo */
+        .cabecera-articulo {
+            text-align: center;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        .titulo-principal {
+            color: #1e293b;
+            font-size: 32px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitulo-principal {
+            color: #2563eb;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .imagen-perfil {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%; /* Imagen redonda elegante */
+            object-fit: cover;
+            border: 4px solid #eff6ff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            margin-bottom: 15px;
+        }
+
+        .pie-imagen {
+            font-style: italic;
+            color: #64748b;
+            font-size: 15px;
+        }
+
+        /* Secciones del texto */
+        .seccion {
+            margin-bottom: 30px;
+        }
+
+        .titulo-seccion {
+            color: #0f172a;
+            font-size: 20px;
+            border-left: 4px solid #2563eb;
+            padding-left: 12px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #475569;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        /* Resaltados */
+        .resaltado {
+            background-color: #fef08a;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        /* Sección de autor/créditos */
+        .tarjeta-autor {
+            background-color: #f8fafc;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #e2e8f0;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .tarjeta-autor h4 {
+            margin: 0 0 10px 0;
+            color: #1e293b;
+            font-size: 16px;
+        }
+
+        .tarjeta-autor p {
+            margin: 0;
+            font-size: 14px;
+            color: #64748b;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <article class="contenedor-articulo">
+        
+        <!-- Cabecera e Imagen -->
+        <header class="cabecera-articulo">
+            <h1 class="titulo-principal">Ada Lovelace</h1>
+            <div class="subtitulo-principal">La primera programadora</div>
+            
+            <!-- Cambia 'imagenr/OIP.webp' por la ruta correcta de tu imagen -->
+            <img src="imagenr/OIP.webp" alt="Ada Lovelace" class="imagen-perfil">
+            <div class="pie-imagen">Augusta Ada Byron, conocida como Ada Lovelace</div>
+        </header>
+
+        
+        <section class="seccion">
+            <h2 class="titulo-seccion">¿Quién fue Ada Lovelace?</h2>
+            <p>
+                Augusta Ada Byron, conocida como <strong>Ada Lovelace</strong>, nació en Londres en 1815. Hija del poeta Lord Byron y de la matemática Annabella Milbanke, recibió una educación poco común para las mujeres de su época. Desde joven mostró una gran capacidad para los números y la lógica, lo que le permitió colaborar con importantes científicos de su tiempo.
+            </p>
+        </section>
+
+        <section class="seccion">
+            <h2 class="titulo-seccion">Su aporte en la ingeniería</h2>
+            <p>
+                Trabajó junto a <em>Charles Babbage</em>, el inventor de la llamada <span class="resaltado">Máquina Analítica</span>. Al traducir y ampliar un artículo sobre esta máquina, agregó notas que eran mucho más extensas que el texto original. En ellas describió un algoritmo pensado para que la máquina calculara los números de Bernoulli, considerado el <strong>primer programa informático de la historia</strong>.
+            </p>
+            <p>
+                Ada comprendió que las máquinas podían hacer mucho más que solo cálculos matemáticos: podían manipular símbolos para crear música, arte y ciencia. Su visión la convirtió en la <strong>primera persona en concebir lo que hoy llamamos programación</strong>, mucho antes de que existieran las computadoras modernas. Falleció a los 36 años, dejando un legado invaluable.
+            </p>
+        </section>
+
+        
+        <footer class="tarjeta-autor">
+            <h4>Datos de presentación</h4>
+            <p><strong>Elaborado por:</strong> Jorge Luis Layme Quispe</p>
+            <p><strong>Carrera:</strong> Ingeniería de Sistemas</p>
+            <p><strong>Fecha:</strong> 20 de octubre de 2026</p>
+        </footer>
+
+    </article>
+
+</body>
+</html>
