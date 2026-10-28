@@ -1,0 +1,13 @@
+LISTA DE CLASES PROPIAS Y COMPONENTES DE BOOTSTRAP UTILIZADOS
+
+1. Clases Propias Creadas (Nomenclatura BEM):
+   - .hero-banner (y subcomponentes): Encabezado principal con gradiente.
+   - .custom-card: Tarjetas con diseño personalizado y borde superior de color institucional.
+   - .site-footer: Pie de página adaptable y estructurado.
+
+2. Componentes de Bootstrap Utilizados:
+   - Navbar: Menú de navegación idéntico en las 4 páginas (.navbar, .navbar-expand-lg).
+   - Rejilla (Grid): Distribución en filas y columnas (.row, .col-md-4, .col-md-6).
+   - Card: Contenedores estilizados para el contenido y el formulario multimedia.
+   - Table: Estilos limpios y responsivos con bordes y filas alternadas (.table, .table-striped).
+   - Formularios: Controles estilizados para entradas, listas desplegables y casillas (.form-control, .form-select, .form-check).

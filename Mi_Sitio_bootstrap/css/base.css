@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #1b365d;
+    --accent-color: #e499f7;
+    --text-dark: #212529;
+    --bg-light: #f8f9fa;
+    --base-spacing: 1.5rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-dark);
+    background-color: var(--bg-light);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: var(--base-spacing);
+    flex: 1;
+}

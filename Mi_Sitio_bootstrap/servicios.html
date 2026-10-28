@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Mi Sitio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--primary-color);">
+        <div class="container-fluid max-width-container">
+            <a class="navbar-brand fw-bold" href="index.html">Mi Sitio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <div class="card custom-card p-4">
+            <h2 class="text-primary mb-4 text-center">Nuestros Servicios y Tarifas</h2>
+            
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered align-middle">
+                    <caption>Tabla 1: Listado oficial de servicios ofrecidos y costos base.</caption>
+                    <thead class="table-dark text-center">
+                        <tr>
+                            <th>Servicio</th>
+                            <th>Descripción</th>
+                            <th>Costo Base</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="fw-bold">Desarrollo Web</td>
+                            <td>Creación de sitios web responsivos con HTML, CSS y Bootstrap.</td>
+                            <td>$150 USD</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Soporte Técnico</td>
+                            <td>Mantenimiento preventivo y correctivo de equipos.</td>
+                            <td>$50 USD</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Consultoría TI</td>
+                            <td>Asesoramiento tecnológico para optimizar procesos digitales.</td>
+                            <td>$80 USD</td>
+                        </tr>
+                        <!-- Fila 4 con celda combinada (colspan="2") -->
+                        <tr>
+                            <td colspan="2" class="text-end fw-bold">Paquete Integral (Todos los servicios anteriores)</td>
+                            <td class="table-success fw-bold">$250 USD (Promoción)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p class="site-footer__text">&copy; 2026 Mi Sitio Web | Todos los derechos reservados. | jorge layme.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
