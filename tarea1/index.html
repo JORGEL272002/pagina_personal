@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 9: Modelar una Entidad como Objeto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Práctica 9: Modelar una Entidad como Objeto</h1>
+            <p>Entidad seleccionada: <strong>Estudiante</strong></p>
+        </header>
+
+        <section class="card">
+            <h2>Estado Actual de la Entidad</h2>
+            <div id="estado-objeto" class="console-box">
+                
+            </div>
+        </section>
+
+       
+        <section class="card">
+            <h2>Métodos del Objeto</h2>
+            
+            <div class="action-group">
+                <button id="btn-resumen">1. Ver Resumen (`resumen()`)[span_0](start_span)[span_0](end_span)</button>
+            </div>
+
+            <div class="action-group">
+                <button id="btn-aprobadas">2. Filtrar Notas Aprobadas (`.filter()`)[span_1](start_span)[span_1](end_span)</button>
+            </div>
+
+            <div class="action-group">
+                <input type="number" id="input-nota" placeholder="Nueva nota (0-100)" min="0" max="100">
+                <button id="btn-agregar">3. Agregar Nota (`throw new Error`)[span_2](start_span)[span_2](end_span)</button>
+            </div>
+
+            <div class="action-group">
+                <button id="btn-promedio">4. Calcular Promedio</button>
+            </div>
+
+            <div class="action-group">
+                <button id="btn-servidor">5. Consultar Servidor (`Promise`)[span_3](start_span)[span_3](end_span)</button>
+            </div>
+        </section>
+
+       
+        <section class="card">
+            <h2>Consola de Pruebas</h2>
+            <div id="consola" class="console-box output">
+                Esperando acciones... Haz clic en los botones de arriba.
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
